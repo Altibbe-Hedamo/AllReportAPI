@@ -1,0 +1,191 @@
+The Generated Report Strictly follow this pattern if Context Provided is FOOD, CLOTHING OR COSMETICS. If there is irrelevant or no input context then output {"text":"Outside my scope or no input"}
+ 
+Scoring should be done by you by Observing each information correctly by You. Do Arithmetic correctly by yourself.
+{
+  "Introduction & Purpose": "The Hedamo Transparency Report provides a professional and consumer-friendly verification of product integrity in the health, organic, and natural sectors. It ensures full transparency in sourcing, production, and ethical practices through rigorous validation and scientific testing.",
+  "Message from Hedamo’s Leadership": "Transparency builds consumer trust. At Hedamo, we empower brands with credibility, enhance consumer confidence, and drive innovation in clean-label products through AI-driven transparency reporting.",
+  "Executive Summary": {
+    "Product Snapshot": {
+      "Product Name": "[Product Name]",
+      "Brand": "[Brand Name]",
+      "Hedamo Transparency Label": "[Platinum | Gold | Green]",
+      "Primary Certifications": "[USDA Organic, BRCGS, EU Organic, etc.]",
+      "Unique Selling Proposition": "[Example: Cold-Pressed Olive Oil, high antioxidant content, pesticide-free]",
+      "Sourcing & Ethical Highlights": "[Example: Fair trade, regenerative agriculture]",
+      "Sustainability & Health Score": "[Score based on lab testing & compliance]"
+    }
+  },
+  "Product Identity & Classification": {
+    "Category & Subcategory": "[Example: Farm Produce > Organic Berries]",
+    "Market Positioning": "[Premium | Functional | Everyday Health Essential]",
+    "Packaging & Sustainability": "[Example: Glass packaging, biodegradable labels]",
+    "Certifications & Compliance": "[List of certifications]"
+  },
+  "Sourcing & Farming Practices": {
+    "Region & Farm Location": "[GPS Geotagging]",
+    "Farming Methodology": "[Organic, Permaculture]",
+    "Ethical & Fair Trade Practices": "[Smallholder farmers, fair wages]",
+    "Water & Soil Health Management": "[Sustainability practices]"
+  },
+  "Processing & Manufacturing Transparency": {
+    "Processing Classification": "[NOVA Score: I, II, III]",
+    "Manufacturing Locations & Certifications": "[List]",
+    "Processing Techniques": "[Cold-Pressed, Stone-Ground]",
+    "Additives & Chemical-Free Commitment": "[No artificial preservatives]"
+  },
+  "Ingredient & Composition Analysis": {
+    "Ingredient List": "100% transparent breakdown",
+    "Nutritional Profile": "Macronutrients & Micronutrients",
+    "Health Benefits": "[Prebiotic, Antioxidant-Rich]"
+  },
+  "Sustainability & Environmental Impact": {
+    "Carbon Footprint & Water Usage": "[Data]",
+    "Plastic-Free Packaging": "[Yes/No]",
+    "Regenerative Agriculture": "[Yes/No]"
+  },
+  "Ethical & Social Responsibility": {
+    "Fair Trade & Community Impact": "[Yes/No]",
+    "Worker Rights & Safe Conditions": "[Compliance Standards]"
+  },
+  "Market Presence & Commercial Viability": {
+    "Countries Sold In": "[List]",
+    "Retail Channels": "[Supermarkets, Online, Specialty Stores]",
+    "Competitive Edge": "[Unique benefits]"
+  },
+  "Lab Testing & Compliance Reports": {
+    "Pesticide & Heavy Metal Testing": "[Pass/Fail]",
+    "Microbiological Safety": "[Pass/Fail]",
+    "Shelf-Life & Quality Assurance": "[Details]"
+  },
+  "QR Code & Digital Transparency": {
+    "Scan to Verify": "[URL]",
+    "Batch-Specific Data": "[Live Updates]"
+  },
+  "Final Scorecard & Hedamo Transparency Label": {
+    "Evaluation Criteria": [
+      "Health & Nutritional Profile",
+      "Transparency & Ingredient Disclosure",
+      "Sustainability & Ethical Practices",
+      "Processing & Purity Standards",
+      "Consumer-Friendliness & Market Relevance"
+    ],
+    "Platinum Rating": "Highest standards: organic, additive-free, fully traceable."
+  },
+   "Scoring System": {
+    "Product Uniqueness & Health Benefits": {
+      "Points": 5,
+      "Description": "Assess nutritional value and functional benefits based on product composition and health claims."
+    },
+    "Raw Material Sourcing": {
+      "Total Points": 12,
+      "Components": {
+        "Certified organic raw materials": 5,
+        "Organic seeds & planting materials": 4,
+        "Documentation of supplier audits": 1,
+        "Non-use of synthetic growth promoters": 2
+      }
+    },
+    "Farming & Cultivation Practices": {
+      "Total Points": 17,
+      "Components": {
+        "Organic fertilizers & soil health": 6,
+        "Pesticide & herbicide compliance": 6,
+        "Sustainable water management": 3,
+        "Crop diversity & rotation": 2
+      }
+    },
+    "Ethical Livestock Practices": {
+      "Total Points": 6,
+      "Components": {
+        "Organic feed, free-range systems": 2,
+        "Antibiotic & hormone-free practices": 2,
+        "Humane animal treatment": 2
+      }
+    },
+    "Manufacturing & Processing": {
+      "Total Points": 14,
+      "Components": {
+        "Non-toxic cleaning & sanitization": 4,
+        "Avoidance of synthetic additives": 3,
+        "Prevention of cross-contamination": 3,
+        "Water & waste management": 4
+      }
+    },
+    "Chemical & Additive Compliance": {
+      "Total Points": 8,
+      "Components": {
+        "Free from artificial colors/flavors": 2,
+        "No chemical ripeners/maturity enhancers": 2,
+        "Residue & contaminant testing": 4
+      }
+    },
+    "Harvesting & Post-Harvest Handling": {
+      "Total Points": 6,
+      "Components": {
+        "Eco-friendly harvesting methods": 2,
+        "Hygienic tools & handling": 2,
+        "Minimal processing to retain nutrition": 2
+      }
+    },
+    "Packaging & Labeling": {
+      "Total Points": 6,
+      "Components": {
+        "Use of sustainable packaging": 2,
+        "Absence of harmful plastics": 1,
+        "Accurate labeling & certifications": 1,
+        "Traceability & documentation": 2
+      }
+    },
+    "Environmental Impact & Sustainability": {
+      "Total Points": 7,
+      "Components": {
+        "Carbon footprint reduction": 2,
+        "Sustainable agriculture": 3,
+        "Recycling & waste reduction": 2
+      }
+    },
+    "Worker Welfare & Ethical Practices": {
+      "Total Points": 3,
+      "Components": {
+        "Fair wages, labor rights": 1,
+        "Safe & hygienic conditions": 1,
+        "Absence of child/forced labor": 1
+      }
+    },
+    "Certification Compliance & Documentation": {
+      "Total Points": 12,
+      "Components": {
+        "Organic & sustainability certifications": 10,
+        "Audit records & self-inspections": 1,
+        "Corrective actions & compliance": 1
+      }
+    },
+    "Future Goals & Continuous Improvement": {
+      "Total Points": 4,
+      "Components": {
+        "R&D in organic techniques": 2,
+        "AI & tech integration": 1,
+        "Consumer education & awareness": 1
+      },
+      "Grand Total out of 100":""
+    }
+  },
+  "Conclusion": "Hedamo Transparency Report enables producers to showcase superior product integrity, helps retailers source clean-label products, and empowers consumers with science-backed information. Transparency is a necessity, and Hedamo is setting the new global standard."
+}
+
+  Reallocation Guidelines 
+    If a criterion is not applicable, redistribute its points as follows
+    1. Product Uniqueness & Health Benefits → Farming & Cultivation Practices
+    2. Raw Material Sourcing → Raw Material Sourcing (redistribute internally as needed)
+    3. Farming & Cultivation Practices → Manufacturing & Processing
+    4. Ethical Livestock Practices (if applicable) → Certification Compliance & Documentation
+    5. Manufacturing & Processing → Chemical & Additive Compliance
+    6. Chemical & Additive Compliance → Harvesting & Post-Harvest Handling
+    7. Harvesting & Post-Harvest Handling → Environmental Impact & Sustainability
+    8. Packaging & Labeling → Worker Welfare & Ethical Practices
+    9. Environmental Impact & Sustainability → Packaging & Labeling
+    10. Worker Welfare & Ethical Practices → Ethical Livestock Practices (if applicable)
+    11. Certification Compliance & Documentation → Product Uniqueness & Health Benefits
+    12. Future Goals & Continuous Improvement → Future Goals & Continuous Improvement
+
+  Instructions: Assign scores out of a total of 100 points strictly following the above framework. Award points only for applicable aspects. If a criterion is not applicable, redistribute its points to the closest relevant attribute as indicated in the reallocation guidelines. For each score, provide a brief justification explaining the rationale behind the score.
