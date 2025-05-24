@@ -1,0 +1,576 @@
+Assume Yourself to be Analyst , You have following tasks to Do:
+1. Plan the audit checkpoints during visit to facility; do a practical timing of the overall exercise in number of hours maximum being 6 hours and minimum being 2 hours.
+2. From our information exchange with the client, identify critical points of the process that need to be physically inspected, these points are critical to the integrity of the product and have the maximum impact on health.
+3. Identify points for the agent to take pictures and videos of the facility that are critical and will have maximum impact on the reader of the report, it also needs to be aesthetic.
+4. Identify verifiable points from our information exchange such as lab reports, certificates and other credentials etc.
+5. Create a interview questions list for a video interview with the stakeholders, the theme of the interview should be their vision for constant improvement of the health benefits and processes of their product, include CSR and sustainability and other humane initiatives by the stakeholders that add a feeling of human touch to a mechanical process and inspires other producers and consumers.
+6. This list needs to be generated for the AP on the webpage with check boxes, document upload and video/pic upload options so that he can walk through the place with the page on his phone and enter data while proceeding.
+7. The audit checklist needs to have a logical sequence to walk through the facility so that the points can be covered naturally.
+
+Design a system. You must strictly adhere to the following instructions:
+You MUST consider all the points mentioned above when generating the checklist.
+You MUST strictly follow the given JSON format exactly as specified.
+You MUST NOT modify, alter, add, or remove any structure, keys, or syntax of the given JSON format.
+You MUST provide your output ONLY in the specified JSON format. No additional explanation, no headings, no extra text — only the JSON output.
+Violation of any of the above instructions is NOT allowed.
+
+{
+  "Farming & Cultivation Practices": {
+    "Estimated Time": "45 min",
+    "Video": "Optional",
+    "Questions": [
+      {
+        "q": "Is the cultivation conducted on certified organic land?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are synthetic fertilizers, pesticides, or GMOs avoided?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are crop rotation and companion planting implemented?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are native/local seed varieties used?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Is the farm layout optimized for soil and water conservation?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are bio-inputs (biofertilizers, biopesticides) used in compliance with organic standards?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Is integrated pest management (IPM) followed?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Is mulching, green manuring, or composting adopted?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are soil health tests done periodically?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Is irrigation managed sustainably (drip, rain-fed, etc.)?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are any plasticulture or non-organic inputs present in the field?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are shade trees, windbreaks, and biodiversity conservation visible?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      }
+    ]
+  },
+  "Raw Material Sourcing": {
+    "Estimated Time": "30 min",
+    "Video": "Optional",
+    "Questions": [
+      {
+        "q": "Are raw materials sourced from certified organic farms?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are supplier certifications, transaction certificates, and lot numbers maintained?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Is there a documented vendor approval process?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are sources of critical ingredients (e.g., additives, carrier agents) traceable?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are wild-harvested materials documented and verified as sustainable and non-contaminated?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are transport and storage methods compliant with organic standards?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are any external inputs (e.g., drying agents, anti-caking agents) listed and approved?",
+        "t": "Text",
+        "c": ""
+      }
+    ]
+  },
+  "Manufacturing & Processing": {
+    "Estimated Time": "60 min",
+    "Video": "Yes",
+    "Questions": [
+      {
+        "q": "Is the facility layout segregated for organic vs non-organic processing?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are cleaning SOPs in place to prevent contamination?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Is equipment cleaned between batches?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are processing steps documented and traceable?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are critical control points monitored (HACCP principles)?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are materials and ingredients labeled throughout?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are preservatives, colorants, or synthetic flavors avoided?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Is any form of irradiation, fumigation, or nanotechnology avoided?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      }
+    ]
+  },
+  "Certification Compliance & Documentation": {
+    "Estimated Time": "30 min",
+    "Video": "Photos",
+    "Questions": [
+      {
+        "q": "Is the organic certificate up to date and displayed?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are Internal Control System (ICS) documents well maintained?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are inspection reports from certifiers accessible?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are inputs, outputs, and yields recorded for each lot?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are transaction certificates (TCs) available for all sales?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are Non-GMO declarations and lab test reports maintained?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are import/export documents aligned with organic labeling claims?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      }
+    ]
+  },
+  "Chemical & Additive Compliance": {
+    "Estimated Time": "15 min",
+    "Video": "-",
+    "Questions": [
+      {
+        "q": "Is the facility free from prohibited substances?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are all additives listed, approved, and within limits of organic standards?",
+        "t": "Text",
+        "c": ""
+      },
+      {
+        "q": "Are synthetic solvents, carriers, or anti-caking agents used or avoided?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Is there third-party testing for pesticide residues, heavy metals, and aflatoxins?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are cleaning agents and pest control chemicals organic-compliant?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      }
+    ]
+  },
+  "Harvesting & Post-Harvest Handling": {
+    "Estimated Time": "30 min",
+    "Video": "Yes",
+    "Questions": [
+      {
+        "q": "Is harvesting done at the correct maturity stage?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are tools and containers used for harvesting clean and dedicated?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Is post-harvest sorting, washing, and drying done hygienically?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are drying temperatures controlled to preserve nutrient content?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Is there physical or documented separation from conventional products?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are storage facilities free from synthetic repellents or fumigation?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      }
+    ]
+  },
+  "Environmental Impact & Sustainability": {
+    "Estimated Time": "15 min",
+    "Video": "-",
+    "Questions": [
+      {
+        "q": "Is the farm promoting soil regeneration (cover crops, compost)?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Is biodiversity actively promoted (trees, pollinator plants)?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are water sources protected from contamination?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are water harvesting or greywater reuse systems used?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are carbon footprint reduction practices adopted?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Is plastic waste minimized and recycled?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Is renewable energy (solar dryers, panels) used?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      }
+    ]
+  },
+  "Worker Welfare & Ethical Practices": {
+    "Estimated Time": "15 – 20 min",
+    "Video": "-",
+    "Questions": [
+      {
+        "q": "Are fair wages paid to all workers?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are hygiene and sanitation facilities available on-site?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are workers provided with safety gear and training?",
+        "t": "Text",
+        "c": ""
+      },
+      {
+        "q": "Is child labor strictly avoided?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are workers given regular health checkups or access to medical aid?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are grievances redressed and documented?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are working hours and overtime within legal and ethical limits?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      }
+    ]
+  },
+  "Packaging & Labeling": {
+    "Estimated Time": "20 min",
+    "Video": "Yes",
+    "Questions": [
+      {
+        "q": "Is packaging material food-grade, recyclable, and non-toxic?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Is organic logo (India Organic/NPOP/USDA) properly used?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are batch codes, net weight, best before, and origin printed?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Is packaging done in a segregated clean zone?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are barcoding and traceability systems implemented?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Is any misleading claim on health or nutrition avoided?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      }
+    ]
+  },
+  "Ethical Livestock Practices (If Applicable)": {
+    "Estimated Time": "20 min",
+    "Video": "Optional",
+    "Questions": [
+      {
+        "q": "Are animals given 100% organic feed?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Is preventive antibiotic use avoided?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are animals allowed free-range access?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are housing conditions humane and clean?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are veterinary treatments documented and compliant?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Is breeding done naturally without hormones or genetic modification?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      }
+    ]
+  },
+  "Product Uniqueness & Health Benefits": {
+    "Estimated Time": "30 min",
+    "Video": "Yes",
+    "Questions": [
+      {
+        "q": "Are there documented health claims backed by research/lab results?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Is the product high in bioactive compounds, antioxidants, or micronutrients?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Is there a unique cultivar, geographical identity (GI), or traditional method involved?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Is the product free from allergens, gluten, dairy, or other common concerns?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are product benefits communicated transparently and factually?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      }
+    ]
+  },
+  "Future Goals & Continuous Improvement": {
+    "Estimated Time": "20 min",
+    "Video": "-",
+    "Questions": [
+      {
+        "q": "Is there an ongoing training program for staff/farmers?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are new organic practices or tech being tested or adopted?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are goals set for expanding organic acreage or products?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Is there an action plan for plastic neutrality, carbon neutrality, or zero waste?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are consumer feedback systems in place for product refinement?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      }
+    ]
+  },
+  "Traceability & Transparency": {
+    "Estimated Time": "20 min",
+    "Video": "-",
+    "Questions": [
+      {
+        "q": "Can every batch be traced from seed to shelf?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are lot numbers, batch records, and supplier details digitally recorded?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are QR codes or digital tools available for consumer verification?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Are external audits conducted regularly and reports made available?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      },
+      {
+        "q": "Is there transparency in pricing, sourcing, and processing shared with consumers?",
+        "t": "Binary",
+        "c": ["Yes", "No"]
+      }
+    ]
+  },
+  "Interview Questions (Stakeholders - Vision for Improvement)": {
+    "Questions": [
+      {
+        "q": "What is your vision for the future of AB Company and its impact on consumer health?",
+        "t": "paragraph"
+      },
+      {
+        "q": "How are you planning to enhance the nutritional benefits of your Paneer in the coming years?",
+        "t": "paragraph"
+      },
+      {
+        "q": "What sustainable practices are you implementing to minimize the environmental impact of your Paneer production?",
+        "t": "paragraph"
+      },
+      {
+        "q": "How do you ensure fair labor practices and worker welfare throughout your supply chain?",
+        "t": "paragraph"
+      },
+      {
+        "q": "What CSR initiatives is AB Company undertaking to contribute to the well-being of the community?",
+        "t": "paragraph"
+      },
+      {
+        "q": "Can you share any inspiring stories about how your Paneer has positively impacted the lives of your consumers?",
+        "t": "paragraph"
+      },
+      {
+        "q": "What measures are you taking to ensure transparency and traceability in your production process, building consumer trust?",
+        "t": "paragraph"
+      },
+      {
+        "q": "How are you encouraging innovation and continuous improvement within your organization to meet evolving consumer needs and health concerns?",
+        "t": "paragraph"
+      },
+      {
+        "q": "What are your goals set for expanding organic products?",
+        "t": "paragraph"
+      },
+      {
+        "q": "Is there an action plan for plastic neutrality, carbon neutrality, or zero waste?",
+        "t": "paragraph"
+      },
+      {
+        "q": "Are consumer feedback systems in place for product refinement?",
+        "t": "paragraph"
+      }
+    ]
+  },
+  "Checklist Implementation Notes for AP": "Notes for AP",
+  "Detailed Plan": "Detailed Plan and stepwise Guidance for audit."
+}
