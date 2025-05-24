@@ -1,0 +1,12 @@
+Flask
+python-dotenv
+google-generativeai
+requests
+flask-cors
+pymupdf
+python-docx
+pillow
+pytesseract
+gdown
+gunicorn
+demjson3
