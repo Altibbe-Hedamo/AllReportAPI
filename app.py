@@ -255,8 +255,8 @@ def fix_json(json_str):
     return None
 
 
-@app.route('/generate_initial_report', methods=['POST'])
-def generate_initial_report():
+@app.route('/generate_intake_report', methods=['POST'])
+def generate_intake_report():
     try:
         data = request.get_json()
         if not data:
@@ -289,7 +289,7 @@ def generate_initial_report():
 
         
         Text = ""
-        with open("initial_report_final.txt", "r", encoding="utf-8") as file:
+        with open("initial_report_output_format.txt", "r", encoding="utf-8") as file:
             Text = file.read().replace('\uf0a7', '-').strip()
 
         prompt = (
@@ -326,8 +326,8 @@ def generate_initial_report():
         return jsonify({"error": "Internal Server Error"}), 500
     
 
-@app.route('/generate_preliminary_report', methods=['POST'])
-def generate_preliminary_report():
+@app.route('/generate_ground_report', methods=['POST'])
+def generate_ground_report():
     try:
         data = request.get_json()
         if not data:
@@ -359,7 +359,7 @@ def generate_preliminary_report():
         print(extracted_text)
 
         Text=""
-        with open("preliminaryReport.txt", "r", encoding="utf-8") as file:
+        with open("GroundReport.txt", "r", encoding="utf-8") as file:
             Text = [line.strip().replace('\uf0a7', '-') for line in file]
         
 
@@ -422,7 +422,7 @@ def generate_final_report():
 
         
         Text = ""
-        with open("finalReport_next.txt", "r", encoding="utf-8") as file:
+        with open("final_report_output_format.txt", "r", encoding="utf-8") as file:
             Text = file.read().replace('\uf0a7', '-').strip()
         
 
@@ -454,8 +454,8 @@ def generate_final_report():
         return jsonify({"error": "Internal Server Error"}), 500
     
 
-@app.route('/generate_Audit_report', methods=['POST'])
-def generate_Audit_report():
+@app.route('/generate_Audit_Checklist', methods=['POST'])
+def generate_Audit_Checklist():
     try:
         data = request.get_json()
         if not data:
